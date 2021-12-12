@@ -46,3 +46,16 @@ margin-bottom: 20px;
 #img{
 	margin-top: 30px;
 }
+#displayImg{
+	width: 640px;
+	height: 500px;
+}
+h2{
+	margin-top: 15px;
+}
+#footer{
+	background-color: rgba(57,192,237,var(--mdb-bg-opacity))
+}
+.navbar-brand{
+	font-size: 40px;
+}

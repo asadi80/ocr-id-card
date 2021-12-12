@@ -34,9 +34,18 @@ function encodeImgtoBase64(element) {
 	  
 	  $.ajax(settings).done(function (response) {
 		  console.log(response);
+		  var info=JSON.parse(response)
+		  console.log(info);
 
 
-		  $('#dob').append(response.data.dateOfBirth);
+		  $('#dob').append(info.data.dateOfBirth);
+		  $('#doe').append(info.data.dateOfExpiry);
+		  $('#doi').append(info.data.dateOfIssue);
+		  $('#dn').append(info.data.documentNumber);
+		  $('#gn').append(info.data.givenNames);
+		  $('#n').append(info.data.name);
+		  $('#s').append(info.data.sex);
+		  $('#sn').append(info.data.surname);
 
 
 

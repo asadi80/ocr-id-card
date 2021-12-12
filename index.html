@@ -29,7 +29,7 @@
 	<div class="container-fluid">
   
 	  <!-- Navbar brand -->
-	  <h1 class="navbar-brand" >ORC ID CARD</h1>
+	  <h1 class="navbar-brand" >OCR ID CARD</h1>
   
 	  
 	  
@@ -44,9 +44,10 @@
 	<div class="row justify-content-around">
   
 	  <div class="col-12">
+		  <h2>Upload ID card or driver linces</h2>
 		<form>
 
-			<input type="file" class="form-control"  name="img" id="img" onchange="encodeImgtoBase64(this)">
+			<input type="file" class="form-control" placeholder="uploda id or driver linces" name="img" id="img" onchange="encodeImgtoBase64(this)">
 			
 			<!-- <a id="convertImg" href=""></a> -->
 			<br>
@@ -125,6 +126,7 @@
 							<td id="sn"></td>
 							
 						  </tr>
+				
 						  					  </tbody>
 				  
 					</table>
@@ -138,6 +140,41 @@
 	  
 		</div>
 	  </div>
+	  <footer class="text-center text-white" style="background-color: rgba(57,192,237,var(--mdb-bg-opacity));" id="footer">
+		<!-- Grid container -->
+		<div class="container pt-4">
+		  <!-- Section: Social media -->
+		  <section class="mb-4">
+			
+			
+			<!-- Linkedin -->
+			<a
+			  class="btn btn-link btn-floating btn-lg text-dark m-1"
+			  href="https://www.linkedin.com/in/abdurraouf-sadi/"
+			  role="button"
+			  data-mdb-ripple-color="dark"
+			  ><i class="fab fa-linkedin"></i
+			></a>
+			<!-- Github -->
+			<a
+			  class="btn btn-link btn-floating btn-lg text-dark m-1"
+			  href="https://github.com/asadi80"
+			  role="button"
+			  data-mdb-ripple-color="dark"
+			  ><i class="fab fa-github"></i
+			></a>
+		  </section>
+		  <!-- Section: Social media -->
+		</div>
+		<!-- Grid container -->
+	  
+		<!-- Copyright -->
+		<div class="text-center text-dark p-3" style="background-color: rgba(14, 5, 97, 0.2);">
+		  © 2020 Copyright:
+		  <a class="text-dark" href="https://www.linkedin.com/in/abdurraouf-sadi/">Abdurraouf Sadi</a>
+		</div>
+		<!-- Copyright -->
+	  </footer>
 
 <script src="js/jquery-latest.min.js"></script>
 <script src="./js/js.js">
